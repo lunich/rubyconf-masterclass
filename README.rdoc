@@ -26,7 +26,6 @@ After that we need to modify our Gemfile. We need to add following lines:
   group :development, :test do
     gem 'rspec-rails'
     gem 'shoulda'
-    gem 'autotest'
     gem 'autotest-rails'
     gem 'factory_girl_rails'
     gem 'ffaker'
@@ -43,11 +42,17 @@ And that's not useful.
 
 OK, so what we just added. Let's talk shortly about each of them.
 
-=== #. rspec
+=== 1. rspec
 
-=== #. shoulda
+=== 2. shoulda
 
-=== #. autotest-rails
+=== 3. autotest-rails
+
+=== 4. factory_girl_rails
+
+=== 5. ffaker
+
+=== 6. webrat
 
 == Resources
 
