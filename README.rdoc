@@ -1,7 +1,64 @@
 == Articler
 
-This repository contains code of my masterclass from the #rubyconfua 2010.
-http://rubylang.org.ua
+This repository contains code of my masterclass from the #rubyconfua 2010 (http://rubylang.org.ua).
 
 The application is just a simple anonymous blog. It was made to just show right technics of
 BDD and TDD development.
+
+== Entry
+
+Presentation can be found in this Git repository under /doc/. I added 3 versions:
+* key
+* pdf
+* ppt
+
+== Resources
+
+Here you can read about elements I used in the presentation.
+
+=== RSpec
+
+Documentation:
+http://rdoc.info/github/dchelimsky/rspec
+http://rdoc.info/github/rspec/rspec-rails
+
+Sources:
+http://github.com/rspec/rspec-rails
+
+=== Shoulda
+
+Documentation:
+http://rdoc.info/github/thoughtbot/shoulda
+
+Sources:
+http://github.com/thoughtbot/shoulda
+
+
+=== Factory Girl
+
+Documentation:
+http://github.com/thoughtbot/factory_girl
+
+Sources:
+http://github.com/thoughtbot/factory_girl_rails
+
+=== FFaker
+
+Documentation:
+http://rdoc.info/github/EmmanuelOga/ffaker
+
+Sources:
+http://github.com/EmmanuelOga/ffaker/tree/master/lib/ffaker/
+
+=== Others
+
+==== Autotest
+
+http://github.com/seattlerb/autotest-rails
+http://github.com/svoop/autotest-growl
+
+==== Cucumber
+
+http://cukes.info/
+
+*NOTE: I didn't finish this description yet but I'm working on it.*
