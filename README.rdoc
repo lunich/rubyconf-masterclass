@@ -12,6 +12,15 @@ Presentation can be found in this Git repository under /doc/. I added 3 versions
 * pdf
 * ppt
 
+== Generating rails project
+
+First thing we should do it's new project generation.
+
+  rails new articler -T
+  
+-T attribute used to skip standard rails tests generation. Actually we can even skip this attribute
+and just delete /test folder from the project.
+
 == Resources
 
 Here you can read about elements I used in the presentation.
