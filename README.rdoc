@@ -19,7 +19,27 @@ First thing we should do it's new project generation.
   rails new articler -T
   
 -T attribute used to skip standard rails tests generation. Actually we can even skip this attribute
-and just delete /test folder from the project.
+and just delete test/ folder from the project.
+
+After that we need to modify our Gemfile. We need to add following lines:
+
+  group :development, :test do
+    gem 'rspec-rails'
+    gem 'shoulda'
+    gem 'autotest'
+    gem 'autotest-rails'
+    gem 'factory_girl_rails'
+    gem 'ffaker'
+    gem 'webrat'
+  end
+
+We should add thees gems to both :development and :test environments because we will use them with rake.
+And by default rake works with :development environment. Of cause, we can add them to :test only but in
+this case we'll need to run all our rake tasks using:
+
+  rake RAILS_ENV=test spec
+
+And that's not useful.
 
 == Resources
 
