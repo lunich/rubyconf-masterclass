@@ -110,5 +110,5 @@ I didn't finish this description yet but I'm working on it.
 == Contacts
 
 SkypeID: lunich.dima
-GTalk/Gmail: dima.lunich@gmail.com
 
+GTalk/Gmail: dima.lunich@gmail.com
