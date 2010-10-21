@@ -48,7 +48,7 @@ Documentation:
 http://rdoc.info/github/EmmanuelOga/ffaker
 
 Sources:
-http://github.com/EmmanuelOga/ffaker/tree/master/lib/ffaker/
+http://github.com/EmmanuelOga/ffaker/tree/master/lib/ffaker
 
 === Others
 
@@ -59,6 +59,11 @@ http://github.com/svoop/autotest-growl
 
 ==== Cucumber
 
-http://cukes.info/
+http://cukes.info
+
+== Contacts
+
+SkypeID: lunich.dima
+GTalk/Gmail: dima.lunich@gmail.com
 
 *NOTE: I didn't finish this description yet but I'm working on it.*
