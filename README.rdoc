@@ -103,9 +103,12 @@ http://github.com/svoop/autotest-growl
 
 http://cukes.info
 
+== TODO
+
+I didn't finish this description yet but I'm working on it.
+
 == Contacts
 
 SkypeID: lunich.dima
 GTalk/Gmail: dima.lunich@gmail.com
 
-*NOTE:* I didn't finish this description yet but I'm working on it.
