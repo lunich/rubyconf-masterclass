@@ -66,4 +66,4 @@ http://cukes.info
 SkypeID: lunich.dima
 GTalk/Gmail: dima.lunich@gmail.com
 
-*NOTE: I didn't finish this description yet but I'm working on it.*
+*NOTE:* I didn't finish this description yet but I'm working on it.
