@@ -1,0 +1,7 @@
+== Articler
+
+This repository contains code of my masterclass from the #rubyconfua 2010.
+http://rubylang.org.ua
+
+The application is just a simple anonymous blog. It was made to just show right technics of
+BDD and TDD development.
