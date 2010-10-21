@@ -33,13 +33,21 @@ After that we need to modify our Gemfile. We need to add following lines:
     gem 'webrat'
   end
 
-We should add thees gems to both :development and :test environments because we will use them with rake.
+We should add these gems to both :development and :test environments because we will use them with rake.
 And by default rake works with :development environment. Of cause, we can add them to :test only but in
 this case we'll need to run all our rake tasks using:
 
   rake RAILS_ENV=test spec
 
 And that's not useful.
+
+OK, so what we just added. Let's talk shortly about each of them.
+
+=== #. rspec
+
+=== #. shoulda
+
+=== #. autotest-rails
 
 == Resources
 
