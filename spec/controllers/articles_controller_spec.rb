@@ -23,9 +23,9 @@ describe ArticlesController do
         Factory.stub(:article),
         Factory.stub(:article),
       ]
-      Article.stub!(:all).and_return(@articles)
-      Article.should_receive(:all).with().and_return(@articles)
-      get 'index'
+      Article.stub!(:paginate).and_return(@articles)
+      Article.should_receive(:paginate).with(:page => "1").and_return(@articles)
+      get 'index', :page => "1"
     end
     it "should be successful" do
       response.should be_success

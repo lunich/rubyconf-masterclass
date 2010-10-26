@@ -1,0 +1,2 @@
+$("#articles").append("<%= escape_javascript(render :partial => @articles) %>");
+$("#flow_pagination").html("<%= escape_javascript(will_paginate(@articles, :renderer => FlowPagination::LinkRenderer)) %>");

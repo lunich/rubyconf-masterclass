@@ -2,10 +2,15 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.1'
 
+gem 'table_for'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'will_paginate', '3.0.pre2'
+gem 'flow_pagination'
+
+gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -33,4 +38,5 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'ffaker'
   gem 'webrat'
+  gem 'ruby-debug'
 end

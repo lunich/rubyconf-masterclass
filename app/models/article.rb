@@ -9,4 +9,8 @@ class Article < ActiveRecord::Base
     :length => 10..5000
     
   has_many :comments
+  
+  def self.per_page
+    1
+  end
 end
