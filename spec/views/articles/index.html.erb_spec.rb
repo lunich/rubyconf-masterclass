@@ -9,6 +9,7 @@ describe "articles/index.html.erb" do
     @articles.stub!(:total_pages => 2)
     @articles.stub!(:current_page => 2)
     assigns[:articles] = @articles
+    view.controller.stub(:controller_name => "articles")
     render
   end
   
