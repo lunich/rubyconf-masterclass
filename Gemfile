@@ -8,7 +8,7 @@ gem 'table_for'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'will_paginate', '3.0.pre2'
-gem 'flow_pagination'
+gem 'flow_pagination', :git => "git://github.com/lunich/flow_pagination.git"
 
 gem 'jquery-rails'
 

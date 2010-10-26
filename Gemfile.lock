@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/lunich/flow_pagination.git
+  revision: 02ec22ad6c5cc23f06bd24deab35fe7daa43296e
+  specs:
+    flow_pagination (1.2.1)
+      will_paginate
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -44,15 +51,15 @@ GEM
       factory_girl (~> 1.3)
       rails (>= 3.0.0.beta4)
     ffaker (0.4.0)
-    flow_pagination (1.2.1)
     i18n (0.4.1)
     jquery-rails (0.2.4)
       rails (~> 3.0)
     linecache (0.43)
-    mail (2.2.7)
+    mail (2.2.9)
       activesupport (>= 2.3.6)
-      mime-types
-      treetop (>= 1.4.5)
+      i18n (~> 0.4.1)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
     mime-types (1.16)
     nokogiri (1.4.3.1)
     polyglot (0.3.1)
@@ -114,7 +121,7 @@ DEPENDENCIES
   autotest-rails
   factory_girl_rails
   ffaker
-  flow_pagination
+  flow_pagination!
   jquery-rails
   rails (= 3.0.1)
   rspec-rails
