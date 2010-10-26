@@ -10,7 +10,6 @@ class Article < ActiveRecord::Base
     
   has_many :comments
   
-  def self.per_page
-    1
-  end
+  cattr_reader :per_page
+  @@per_page = 2
 end

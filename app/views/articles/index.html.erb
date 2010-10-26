@@ -3,4 +3,4 @@
   <%= render :partial => @articles %>
 </div>
 
-<%= will_paginate @articles, :renderer => FlowPagination::LinkRenderer -%>
+<%= will_paginate :renderer => FlowPagination::LinkRenderer -%>
